@@ -14,11 +14,13 @@ This repo includes solutions to specific challenges that involve interacting wit
   - Implements `IERC721Receiver` to handle NFT transfers
   - Solves a randomness-based challenge using `block.prevrandao` and timestamps
   - Automatically transfers received NFTs to a specified EOA address
+  - **Contract Address**: [0x33e1fD270599188BB1489a169dF1f0be08b83509](https://sepolia.etherscan.io/address/0x33e1fD270599188BB1489a169dF1f0be08b83509#code) (Sepolia)
 
 - **`AdvancedFoundrySection1Nft.sol`** - Solution for Advanced Foundry Section 1 NFT challenge
   - Creates an ERC20 token contract (`AdvancedFoundryToken`)
   - Implements a challenge solution that requires token approval
   - Initial supply of 10,000 AFT tokens
+  - **Contract Address**: [0xE0aE410a16776BCcb04A8d4B0151Bb3F25035994](https://sepolia.etherscan.io/address/0xE0aE410a16776BCcb04A8d4B0151Bb3F25035994#code) (Sepolia)
 
 ## 🔧 Technical Details
 
