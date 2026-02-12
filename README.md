@@ -22,6 +22,13 @@ This repo includes solutions to specific challenges that involve interacting wit
   - Initial supply of 10,000 AFT tokens
   - **Contract Address**: [0xE0aE410a16776BCcb04A8d4B0151Bb3F25035994](https://sepolia.etherscan.io/address/0xE0aE410a16776BCcb04A8d4B0151Bb3F25035994#code) (Sepolia)
 
+- **`AdvancedFoundrySection9Nft.sol`** - Solution for Advanced Foundry Section 9 NFT challenge
+  - Implements function selector-based challenge solving
+  - Calls the `solveChallenge` method on the challenge contract with specific parameters
+  - Uses function selector `0x0700fdd7` (corresponds to `doSomething2()` method)
+  - Submits with Twitter handle "rosarioborgesi" for challenge verification
+  - **Contract Address**: [0x6b63e3c0079fa8D49418a33B153C6378F4A89769](https://sepolia.etherscan.io/address/0x6b63e3c0079fa8D49418a33B153C6378F4A89769) (Sepolia)
+
 ## 🔧 Technical Details
 
 ### Dependencies
